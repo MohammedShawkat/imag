@@ -1,0 +1,75 @@
+* {
+  bottom: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  background: url(images/Wallpaper\ k4_099.jpg) center no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+input{
+    min-height: 30px;
+    padding: 10px;
+    width: 90%;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+label{
+    font-size: 18px;
+    color: #b6b6b6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.s{
+    margin-left: 20px;
+}
+button{
+    height: 34px;
+    width: 50%;
+    color: #fff;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.saw{
+    font-size: 24px;
+}
+section {   
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 18px;
+  border-radius: 20px;
+
+  background-color: rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+outline: 0px solid #000000;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 32vh;
+}
